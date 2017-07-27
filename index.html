@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>ShoppingCartJuneJava2017-JS</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- this is the form used for entering items-->
+<h1>GC Shopping Cart</h1>
+<h3>Please use the form below to enter in products that you would like to add to your shopping cart</h3>
+<div id ="form">
+  <label>Product Name</label>
+  <input id="pName" type="text"><br>
+  <label>Quantity</label>
+  <input id="pQty" type="number"><br>
+  <label>Unit Price</label>
+  <input id="price" type="number"><br>
+  <button onclick="addItem()">Add item</button>
+</div>
+
+<!-- this div will hold the contents that are coming from the form (user input)
+-->
+<div id = "cart"></div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
